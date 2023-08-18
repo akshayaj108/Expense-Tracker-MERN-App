@@ -12,6 +12,7 @@ server/node_modules
 # production
 /build
 /expensesDB
+/git.txt
 
 # misc
 .DS_Store

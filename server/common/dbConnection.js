@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const connectLocalDB = (database) => {
   mongoose
-    .connect(`${process.env.localURL}/${database}`)
+    .connect(`${process.env.localURL}/Expenses`)
     .then(() => {
       console.log("DB connected");
     })
